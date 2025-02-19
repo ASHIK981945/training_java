@@ -2,16 +2,15 @@ dir
 cd
 
 ##class 
-	properties
-	methods/behaviours
-	constructors
+	**properties**
+	**methods/behaviours**
+	**constructors**
 
 ##oop principal
-	**inheritance**
-
-	**polymorphism **(over write/over loading)name save but work different(sig)
-	**abstraction  **()
-	**encapsulate **(source )
+	inheritance
+	polymorphism (over write/over loading)name save but work different(sig)
+	abstraction  ()
+	encapsulate (source )
 
 ```c
 Class Rectangle {
