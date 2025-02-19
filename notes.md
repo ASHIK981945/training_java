@@ -1,18 +1,17 @@
-dir
-cd
 
 ##class 
-	(**properties**
-	**methods/behaviours**
-	**constructors**)
+	properties
+	methods/behaviours
+	constructors
 
 ##oop principal
-	inheritance
-	polymorphism (over write/over loading)name save but work different(sig)
-	##abstraction
-	A **Abstraction **is a process of hiding the implementation details from the 
+
+	#inheritance
+	#polymorphism (over write/over loading)name save but work different(
+	#abstraction
+	Abstraction is a** process of hiding** the implementation details from the 
 	user only the fuctionlity will be provided to the user.in other wors, the user will have the information on what the object does instead of how it does it. in java , abstraction is achieved using Abstract classes and interfaces
-	encapsulate (source )
+	#encapsulate (source )
 
 ```c
 Class Rectangle {
