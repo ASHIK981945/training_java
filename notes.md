@@ -8,6 +8,7 @@ cd
 
 ##oop principal
 	inheritance
+	
 	polymorphism (over write/over loading)name save but work different(sig)
 	abstraction  ()
 	encapsulate (source )
