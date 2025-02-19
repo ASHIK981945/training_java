@@ -1,0 +1,12 @@
+public class Index{
+	public Index()
+{}
+
+public static void main(strig args[]){
+	string firstname="ashik"
+	String lastname ="rana"
+	System.out.println(firstname +lastname);
+
+}
+
+}
