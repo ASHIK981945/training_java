@@ -12,12 +12,9 @@ public class Bubblesort {
             }
         }
 
-        System.out.println(".........");
-
         System.out.println("After Sorting");
         for (int i = 0; i < size; i++) {
-            System.out.println(arr[i] + " ");
+            System.out.println(arr[i]);
         }
     }
-
 }

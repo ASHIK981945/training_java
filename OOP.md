@@ -34,17 +34,113 @@ public class Method {
 
 oop principal / four main features of object oriented programming
 
-	Inheritance ->
+	Inheritance ->(over write)
+	
+	 ( superclass (parent) - the class being inherited from)
+	 
+	 ( subclass (child) - the class that inherits from another class)
+
 	Inheritance is an important pillar of OOP (object oriented programming) it is 
 	the mechanism in java by which one class is allow to inherite the features (fields and methods) of another calss .
+``c
+class parent {  
+	// super class
+	public void displayA() 
+	{
+		System.out.("AAAAAA)
+	}
+	public void displayB()
+	{
+		System.outprintln();
+	}
+}
+	// sub class
+public class child extends parent{
+	@override (over write )
+	public void displayA()
+	{
+		System.out.println("AAA")
+	}
+		public void display AB(){
+		super.displayA()
+		super.displayB()
+		this.displayA()
+	}
+}
 
-	#Polymorphism (over write/over loading)(name save but work different) --->
-	polymorphism is java is a concept by which we can peerform a single action in
+```
+
+
+
+	#Polymorphism
+	(over write Overwriting refers to the process of replacing existing data with new information)
+	 
+	(over loading ->With method overloading, multiple methods can have the same name with different parameters)
+	  
+	(name save but work different)(having mutiple form) --->
+
+	polymorphism is java is a concept by which we can peerform a single (int 2 or 3 double)action in
 	different ways.polymorphism is derived from 2 greek words:paly and morphs.the word "poly" means many and "morphs" forms. so ploymorphism many forms 
+
 	there are two tpyes of polymorphism in java :compile-time polymorphism and runtime polymorphism .we can perform polymorphism in java by method overloading {compile time} and method overloading {runtime}
 
+```c
+public class Polymorphism {
+
+    // polymorphism : having multiple forms
+
+    // method overloading
+    // Example :
+    // int add (int a , int b);
+    // int add (int a, int b , int c);
+    // int add (double a, double b);
+
+    // program example
+
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    // method overloded with 3 int parameters
+    static int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    // methods overloading with 2 double types parameters
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+
+        // use object
+
+        Polymorphism object = new Polymorphism();
+        int result = object.add(45, 31);
+        System.out.println("addition of two number:" + result);
+        System.out.println("...............................");
+
+        // use static
+        // int result = add(0, 0);
+        // System.out.println("addition of two number" + result);
+
+        // use static
+        int value = Polymorphism.add(2, 3, 4);
+        System.out.println("addition of three number :" + value);
+        System.out.println("...............................");
+
+        // use object
+        Polymorphism object1 = new Polymorphism();
+        int resultdouble = object1.add(12, 12);
+        System.out.println("addition of two number of double " + resultdouble);
+
+    }
+
+}
+```
 	#Abstraction -->
-	Abstraction is a** process of hiding** the implementation details from the 
+
+	Abstraction is a process of hiding the implementation details from the 
 	user only the fuctionlity will be provided to the user.in other wors, the user will have the information on what the object does instead of how it does it. in java , abstraction is achieved using Abstract classes and interfaces 
 
 ```c
@@ -69,6 +165,7 @@ oop principal / four main features of object oriented programming
 	}
 ```
     Encapsulaste (source ) -->
+
 		Encapsulate in java is a mechanism of wrapping the  data (variables) and 
 		code acting on the data (method) together as a single unit. in encapsulation, the variable of a class will be hidden from other class, add can be accessed only through the methods of thier current class .therefore,it is also known as data hiding
 ```c
@@ -113,3 +210,28 @@ take array data use;
 display smallest number among them;
 
 
+(this  /  super )
+``c
+class parent {
+	public void displayA() 
+	{
+		System.out.("AAAAAA)
+	}
+	public void displayB()
+	{
+		System.outprintln();
+	}
+}
+public class child extends parent{
+	@override (over write )
+	public void displayA()
+	{
+		System.out.println("AAA")
+	}
+		public void display AB(){
+		super.displayA()
+		super.displayB()
+		this.displayA()
+	}
+}
+```
