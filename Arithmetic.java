@@ -1,5 +1,5 @@
 class Number {
-    public int addtwoDigit(int a, int b) {
+    int addtwoDigit(int a, int b) {
         return a + b;
     }
 }
