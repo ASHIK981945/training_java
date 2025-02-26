@@ -12,7 +12,7 @@
 	
 	Java Methods are blocks of code that perform a specific task. A method allows us to reuse code, improving both efficiency and organization. All methods in Java must belong to a class. Methods are similar to functions and expose the behavior of objects
 
-	```c
+```c
 // Creating a method
 // that prints a message
 public class Method {
@@ -235,3 +235,36 @@ public class child extends parent{
 	}
 }
 ```
+
+```c
+class parent {
+	void add (int a , int b){
+		system.out.println("addition result:" + (a+b))
+	}
+	void subtract(int a , int b){
+		system.out.println("addition result:" + (a-b))
+	}
+}
+ 
+pubic class child extends parent{
+	void  add & subtract (int c ,int d){
+		super.add(a,b); // no define
+		super.add(c,d); // define
+		super.subtract(c,d);
+	}
+	void divide (int c,int d){
+		system.out.println("divided resulf:"+(c\d));
+	}
+	void AddSubtractDivide(int a ,int b){
+		this.add&subtract(a,b);
+		this.divide(a,b);
+	}
+}
+```
+
+main body ma
+
+ child a = new child();
+ int res = a.AddSubtractDivid();
+ System.out.println(res);
+
