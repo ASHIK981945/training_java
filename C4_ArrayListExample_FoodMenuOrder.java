@@ -96,10 +96,10 @@ public class C4_ArrayListExample_FoodMenuOrder {
         // }
         // System.out.println("Total Price: "+ total);
 
-        Menu men = new Menu();
-        men.menuItems = list;
-        men.removeItems("Rice");
-        men.display();
+        // Menu men = new Menu();
+        // men.menuItems = list;
+        // men.removeItems("Rice");
+        // men.display();
 
     }
 
