@@ -75,6 +75,11 @@ class Menu {
     public void display() {
         System.out.println(menuItems);
     }
+
+    public void getAllFood() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAllFood'");
+    }
 }
 
 public class C4_ArrayListExample_FoodMenuOrder {
@@ -96,10 +101,10 @@ public class C4_ArrayListExample_FoodMenuOrder {
         // }
         // System.out.println("Total Price: "+ total);
 
-        // Menu men = new Menu();
-        // men.menuItems = list;
-        // men.removeItems("Rice");
-        // men.display();
+        Menu men = new Menu();
+        men.menuItems = list;
+        men.removeItems("Rice");
+        men.display();
 
     }
 
